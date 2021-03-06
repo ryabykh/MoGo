@@ -1,0 +1,37 @@
+.facts {
+    max-width: 100%;
+    min-height: 270px;
+    background-color: #95e1d3;
+}
+
+.facts-items {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    ;
+}
+
+.facts-items li {
+    border-right: 1px solid #b5eae0;
+}
+
+.facts-items li:last-of-type {
+    border-right: none;
+}
+
+.facts-items__num {
+    font-family: 'Montserrat';
+    margin: 90px 0 25px;
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.facts-items__value {
+    font-family: 'Montserrat';
+    margin: 0 0 90px;
+    font-size: 14;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}

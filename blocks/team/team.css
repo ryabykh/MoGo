@@ -1,0 +1,144 @@
+.team {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.team__subtitle {
+    font-family: 'KaushanScript';
+    font-size: 24px;
+    margin: 0;
+}
+
+.team__title {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 24px 0 90px;
+    position: relative;
+}
+
+.team__title::before {
+    content: "";
+    width: 6%;
+    height: 3px;
+    position: absolute;
+    background-color: #f38181;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.team__description {
+    max-width: 955px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #999;
+    margin: 0 auto 100px;
+}
+
+.team-lead {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 110px;
+}
+
+.team-lead__link {
+    text-decoration: none;
+}
+
+.team-lead__image {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+
+/* Вариант с bg-image и cover */
+
+
+/* .team-lead-member {
+    background-image: url("../../img/team/3.png");
+    max-width: 380px;
+    min-height: 470px;
+    background-size: cover;
+    background-position: center;
+} */
+
+
+/* .team-lead-cover {
+    background-image: url(../../img/team/over.png);
+    min-height: 0;
+    opacity: .8;
+    position: relative;
+} */
+
+
+/* .team-lead-member:hover .team-lead-cover {
+    min-height: 470px;
+} */
+
+
+/* .team-lead-member:hover .team-lead-links {
+    opacity: 1;
+} */
+
+.team-lead-links {
+    background-color: #fce38a;
+    position: absolute;
+    top: 226px;
+    left: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0;
+}
+
+.team-lead-links__item {
+    width: 56px;
+    height: 58px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-lead-links__item:hover {
+    background-color: #f38181;
+}
+
+
+/* вариант с img  ^& cover рабочий*/
+
+.team-lead-member {
+    position: relative;
+}
+
+.team-lead__image {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: bottom;
+}
+
+.team-lead-cover {
+    background-image: url(../../img/team/over.png);
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.team-lead-member:hover .team-lead-cover {
+    opacity: .8;
+}
+
+.team-lead-member:hover .team-lead-links {
+    opacity: 1;
+}

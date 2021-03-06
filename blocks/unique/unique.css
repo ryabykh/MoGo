@@ -1,0 +1,41 @@
+.unique {
+    text-align: center;
+    min-height: 850px;
+    background-image: url("../../img/unique/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.unique__subtitle {
+    margin: 0;
+    font-family: 'KaushanScript';
+    font-size: 24px;
+    padding-top: 100px;
+}
+
+.unique__title {
+    margin: 25px 0 90px;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.unique__title:before {
+    content: "";
+    width: 6%;
+    height: 3px;
+    position: absolute;
+    background-color: #f38181;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.unique__image_mobile {
+    position: absolute;
+    bottom: -100px;
+    right: 30%;
+}

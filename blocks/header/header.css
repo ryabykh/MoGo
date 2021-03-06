@@ -1,0 +1,119 @@
+.header {
+    width: 100%;
+    min-height: 1000px;
+    background-image: url(../../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top__logo {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.header-nav__link {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-right: 65px;
+    position: relative;
+    transition: all .3s;
+}
+
+.header-nav__link:before {
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    background-color: #fce38a;
+    bottom: -3px;
+    display: none;
+}
+
+.header-nav__link:hover {
+    color: #fce38a;
+}
+
+.header-nav__link:hover:before {
+    display: inline-block;
+}
+
+.header-nav__link:last-of-type {
+    margin-right: 0;
+}
+
+.header-nav__link:nth-child(6) {
+    margin-right: 38px;
+}
+
+.header-banner {
+    text-align: center;
+    margin-top: 170px;
+}
+
+.header-banner__subtitle {
+    font-family: 'KaushanScript';
+    font-size: 72px;
+    color: #fff;
+    margin: 0;
+}
+
+.header-banner__title {
+    max-width: 900px;
+    font-family: 'Montserrat';
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 140px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 50px auto 125px;
+    text-align: center;
+    position: relative;
+}
+
+.header-banner__title::before {
+    content: "";
+    width: 5%;
+    height: 3px;
+    position: absolute;
+    background-color: #fff;
+    bottom: -75px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header-banner__button {
+    outline: none;
+    border: 3px solid #fff;
+    width: 160px;
+    min-height: 40px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.header-banner__button:hover {
+    /* color: #f8e8b0; */
+    /* border-color: #f8e8b0; */
+    cursor: pointer;
+    box-shadow: inset 1px 1px 10px 1px #fff;
+}
+
+.header-banner__button:active {
+    transform: translateY(1px);
+}

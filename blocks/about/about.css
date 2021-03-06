@@ -1,0 +1,98 @@
+.about {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.about__subtitle {
+    font-family: 'KaushanScript';
+    font-size: 24px;
+    margin: 0;
+}
+
+.about__title {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 24px 0 90px;
+    position: relative;
+}
+
+.about__title::before {
+    content: "";
+    width: 6%;
+    height: 3px;
+    position: absolute;
+    background-color: #f38181;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about__description {
+    max-width: 955px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #999;
+    margin: 0 auto 100px;
+}
+
+.about-project {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 110px;
+}
+
+.about-project__link {
+    text-decoration: none;
+}
+
+.about-project__image {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+
+/* cover & img */
+
+.about-project__item {
+    position: relative;
+}
+
+.about-project-cover {
+    background-image: url(../../img/story/cover.png);
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.about-project__link2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.about-project__link-image {
+    width: 50px;
+    height: 50px;
+    object-position: center;
+    object-fit: cover;
+    transition: .3s;
+}
+
+.about-project__item:hover .about-project-cover {
+    opacity: .8;
+}
+
+.about-project__link2:hover .about-project__link-image {
+    transform: scale(1.3);
+}

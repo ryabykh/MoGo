@@ -1,0 +1,44 @@
+.quote {
+    margin: 0;
+    width: 100%;
+    min-height: 290px;
+    background-color: #f8f8f8;
+}
+
+.quote__wrap {
+    padding-top: 70px;
+    margin: 0 auto;
+    max-width: 1100px;
+    min-height: 165px;
+}
+
+.quote__text {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 24px;
+    line-height: 36px;
+    color: #999;
+    margin: 0 0 20px;
+}
+
+.quote__signature {
+    font-family: 'KaushanScript';
+    font-size: 24px;
+    position: relative;
+    margin-left: 80px;
+}
+
+.quote__signature::before {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    position: absolute;
+    top: 50%;
+    left: -100%;
+}
+
+.quote__image {
+    margin-right: 60px;
+    float: left;
+}
