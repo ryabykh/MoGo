@@ -7,6 +7,7 @@
     font-family: 'KaushanScript';
     font-size: 24px;
     margin: 0;
+    color: #333;
 }
 
 .amazing__title {
@@ -16,6 +17,7 @@
     text-transform: uppercase;
     margin: 25px 0 100px;
     position: relative;
+    color: #333;
 }
 
 .amazing__title::before {

@@ -6,6 +6,7 @@
     margin: 112px 0 0 0;
     font-size: 24px;
     font-family: 'KaushanScript';
+    color: #333;
 }
 
 .service__title {
@@ -15,6 +16,7 @@
     font-family: 'Montserrat';
     text-transform: uppercase;
     position: relative;
+    color: #333;
 }
 
 .service__title:after {

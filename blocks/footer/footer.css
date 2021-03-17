@@ -1,0 +1,117 @@
+.footer {
+    background-color: #f8f8f8;
+}
+
+.footer__wrap {
+    padding: 70px 0;
+    display: grid;
+    grid-template-columns: 460px 360px 280px;
+    gap: 50px;
+    border-bottom: 1px solid #999;
+}
+
+.footer-about__title {
+    margin: 0;
+    color: #999;
+    font-family: 'Montserrat';
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-about__description {
+    margin: 40px 0 50px;
+    color: #999;
+    font-family: 'Roboto';
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.footer-about__counter {
+    margin: 0;
+    padding-bottom: 20px;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 700;
+    border-bottom: 1px solid #999;
+}
+
+.footer-about__counter_bold {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.footer__links {
+    margin: 15px 0 35px;
+    display: grid;
+    grid-template-columns: 80px repeat(9, 30px);
+    align-items: center;
+}
+
+.footer__link {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.footer__link:hover {
+    background-color: rgba(153, 153, 153, .5);
+    border-radius: 50%;
+}
+
+.footer__follow {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999;
+}
+
+.footer__form {
+    margin: 0;
+    padding: 0;
+}
+
+.footer__form-input {
+    outline: none;
+    border: 1px solid #999;
+    margin: 0;
+    padding: 0 0 0 10px;
+    width: 230px;
+    height: 40px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #ccc;
+    font-style: italic;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.footer__form-btn {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: #95e1d3;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    left: -5px;
+    top: 1px;
+}
+
+.footer__form-btn:hover {
+    cursor: pointer;
+    opacity: .8;
+}

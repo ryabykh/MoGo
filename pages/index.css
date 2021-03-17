@@ -12,3 +12,7 @@
 @import url('../blocks/team/team.css');
 @import url('../blocks/logos/logos.css');
 @import url('../blocks/work/work.css');
+@import url("../blocks/people/people.css");
+@import url("../blocks/blog/blog.css");
+@import url("../blocks/map/map.css");
+@import url("../blocks/footer/footer.css");

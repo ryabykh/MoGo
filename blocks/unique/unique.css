@@ -13,6 +13,7 @@
     font-family: 'KaushanScript';
     font-size: 24px;
     padding-top: 100px;
+    color: #333;
 }
 
 .unique__title {
@@ -21,6 +22,7 @@
     font-size: 30px;
     text-transform: uppercase;
     position: relative;
+    color: #333;
 }
 
 .unique__title:before {

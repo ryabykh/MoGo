@@ -1,0 +1,88 @@
+.people {
+    background-image: url("../../img/people/bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.people__subtitle {
+    font-family: 'KaushanScript';
+    font-size: 24px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+    color: #333;
+}
+
+.people__title {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 24px 0 130px;
+    position: relative;
+    text-align: center;
+    color: #333;
+}
+
+.people__title::before {
+    content: "";
+    width: 60px;
+    height: 3px;
+    position: absolute;
+    background-color: #f38181;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.people__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 65px 75px;
+    padding-bottom: 130px;
+}
+
+.people__card {
+    display: flex;
+    align-items: start;
+}
+
+.people__image {
+    margin-right: 30px;
+}
+
+.people__name {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333;
+}
+
+.people__post {
+    margin: 10px 0 45px;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'Roboto';
+    font-style: italic;
+    position: relative;
+    color: #333;
+}
+
+.people__post::before {
+    content: "";
+    width: 60px;
+    height: 3px;
+    position: absolute;
+    background-color: #f38181;
+    bottom: -20px;
+    left: 0;
+}
+
+.people__about {
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'Roboto';
+    color: #999;
+}

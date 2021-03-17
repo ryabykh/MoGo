@@ -1,0 +1,30 @@
+.map {
+    background-image: url("../../img/map/bg.png");
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.map__icon {
+    padding-top: 55px;
+}
+
+.map__title {
+    margin: 20px 0 0;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    color: #f38181;
+}
+
+.map__title::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
