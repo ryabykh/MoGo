@@ -1,18 +1,19 @@
 .facts {
     max-width: 100%;
     min-height: 270px;
-    background-color: #95e1d3;
+
 }
 
 .facts-items {
     text-align: center;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    ;
+    padding: 0;
 }
 
 .facts-items li {
     border-right: 1px solid #b5eae0;
+    background-color: #95e1d3;
 }
 
 .facts-items li:last-of-type {
@@ -34,4 +35,35 @@
     font-weight: 400;
     color: #fff;
     text-transform: uppercase;
+}
+
+@media (max-width:1024px){
+  .facts-items{
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .facts-items__num {
+    margin: 60px 0 20px;
+    font-size: 72px;
+
+}
+
+.facts-items__value {
+    margin: 0 0 60px;
+    font-size: 14;
+
+}
+}
+@media (max-width:640px){
+
+  .facts-items__num {
+    margin: 40px 0 20px;
+    font-size: 56px;
+
+}
+
+.facts-items__value {
+    margin: 0 0 40px;
+    font-size: 14;
+
+}
 }

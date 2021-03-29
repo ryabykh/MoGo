@@ -117,3 +117,72 @@
 .header-banner__button:active {
     transform: translateY(1px);
 }
+
+@media (max-width:1024px){
+  .header{
+    min-height: 800px;
+  }
+  .header-banner{
+    margin-top: 100px;
+  }
+  .header-banner__title::before {
+    bottom: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  .header-nav__link{
+    margin-right: 20px;
+  }
+  .header-banner__title{
+    font-size: 100px;
+    margin-bottom: 100px;
+  }
+  .header-banner__subtitle{
+    font-size: 48px;
+  }
+}
+@media (max-width:640px){
+  .header{
+    min-height: 600px;
+  }
+  .header-banner{
+    margin-top: 50px;
+  }
+  .header-banner__title::before {
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  .header-nav__link{
+    margin-right: 10px;
+  }
+  .header-banner__title{
+    line-height: 80px;
+    margin: 20px auto 60px;
+    font-size: 68px;
+  }
+  .header-banner__subtitle{
+    font-size: 24px;
+  }
+}
+
+@media (max-width:480px){
+  .header{
+    min-height: 400px;
+  }
+  .header-nav{
+    display: none;
+  }
+  .header-banner{
+    margin-top: 10px;
+  }
+  .header-banner__title::before {
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  .header-banner__title{
+    font-size: 48px;
+    line-height: 60px;
+    margin: 20px auto 30px;
+  }

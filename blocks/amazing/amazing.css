@@ -76,3 +76,27 @@
     line-height: 24px;
     color: #999;
 }
+
+@media (max-width:1024px){
+  .amazing-block {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+}
+@media (max-width:640px){
+  .amazing{
+    margin-top: 50px;
+  }
+  .amazing__title{
+    margin-bottom: 50px;
+  }
+  .amazing-items__title{
+    margin-top: 20px;
+  }
+  .amazing-items__text {
+    margin-bottom: 20px;
+    padding-left: 60px;
+}
+.amazing-items__image{
+  left: 10px;
+}
+}

@@ -85,7 +85,7 @@
     box-sizing: border-box;
     font-family: 'Roboto';
     font-size: 14px;
-    color: #ccc;
+    color: #333;
     font-style: italic;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -114,4 +114,83 @@
 .footer__form-btn:hover {
     cursor: pointer;
     opacity: .8;
+}
+
+.footer__blogs-title{
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0 0 40px;
+}
+
+.footer__blog-card{
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 30px;
+  align-items: center;
+}
+
+.footer__blog-description{
+  margin: 0 0 10px 20px;
+}
+
+.footer__blog-name{
+  text-decoration: none;
+  color: #333;
+  margin: 0;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.footer__blog-date{
+  margin: 0;
+  font-family: 'Roboto';
+  color: #999;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 24px;
+
+}
+
+.footer__insta-images{
+margin: 40px 0 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+}
+
+.footer_insta-title{
+  margin: 0;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.footer__insta-link{
+  margin: 0;
+  font-family: 'Roboto';
+  color: #585858;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 24px;
+  text-decoration: none;
+
+}
+
+.footer__copyright{
+  margin: 23px auto;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.footer__copyright_color{
+  color: #f38181;
 }

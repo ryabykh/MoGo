@@ -5,9 +5,13 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
+    color: #333;
 }
 
 ul,
 li {
     list-style: none;
+}
+*{
+
 }
